@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: Echo a string
         run: echo "Hello World! This is Pradnyan."
+      - name: Docker commands
+        run: |
+            docker -v
+            docker images -a
