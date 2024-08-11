@@ -6,7 +6,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  Exit_Code:
     build:
       name: Run Script
       runs-on: ubuntu-latest
